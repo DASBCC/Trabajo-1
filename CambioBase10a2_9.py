@@ -5,4 +5,8 @@ def C_baseD_AC(n,base):
    else:
       return C_baseD_AC(n//base,base) + cadenaConversion[n%base]
 
-print(C_baseD_AC(77,3))
+print (C_baseD_AC(38,3))
+def test_C_baseD_AC():
+   assert C_baseD_AC(38,3)==1102
+   print ("Prueba")
+test_C_baseD_AC()
