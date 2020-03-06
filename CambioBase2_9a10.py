@@ -19,5 +19,5 @@ def test_C_CB_base10():
     assert C_CB_base10(315,7)==159
     assert C_CB_base10(716,8)==462
     assert C_CB_base10(69,9)==63
-    print ("Profe lo logramos")
+    print ("Profe lo logramos :D")
 test_C_CB_base10()
